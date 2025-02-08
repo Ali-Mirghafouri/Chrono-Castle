@@ -192,3 +192,11 @@ Received Import Request.
 Start importing Assets/Materials using Guid(2171771b503e08a4d9ac894da7392888) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b947a86cfcd83e919ba07153d1f2ef2a') in 0.0559263 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
+========================================================================
+Received Import Request.
+  Time since last request: 188.657886 seconds.
+  path: Assets/Materials/Wow.shadergraph
+  artifactKey: Guid(f471ab72caa15f640bfc8b78d913ea37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Wow.shadergraph using Guid(f471ab72caa15f640bfc8b78d913ea37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c2ac5ff576eb4ff7ac790e6ed2ac749e') in 7.5799157 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+

@@ -36,6 +36,10 @@ sysinfo.txt
 ._*
 .Spotlight-V100
 .Trashes
+.dwlt
+.log
 Icon?
 ehthumbs.db
 Thumbs.db
+*.log
+*.dwlt

@@ -189,4 +189,22 @@ Received Import Request.
   Time since last request: 699573.499924 seconds.
   path: Assets/Materials/Wow.mat
   artifactKey: Guid(dd135ff024e07bc499f22985ae7fab0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wow.mat using Guid(dd135ff024e07bc499f22985ae7fab0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)
+Start importing Assets/Materials/Wow.mat using Guid(dd135ff024e07bc499f22985ae7fab0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33fa6d81372bc087dec1e3a8e12f97d3') in 7.9793819 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.101042 seconds.
+  path: Assets/Materials/Wow.shadergraph
+  artifactKey: Guid(f471ab72caa15f640bfc8b78d913ea37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Wow.shadergraph using Guid(f471ab72caa15f640bfc8b78d913ea37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '232056264b5fdd15022bb84ce0979de4') in 0.0298034 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 162.629408 seconds.
+  path: Assets/Materials/Wow.mat
+  artifactKey: Guid(dd135ff024e07bc499f22985ae7fab0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Wow.mat using Guid(dd135ff024e07bc499f22985ae7fab0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92e3875054a09a3c23412d3313f3b51e') in 6.4096569 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
