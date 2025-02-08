@@ -422,8 +422,8 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: c049ffff
-      m_LastClickedID: -46656
+      m_SelectedIDs: 
+      m_LastClickedID: 0
       m_ExpandedIDs: 7a4bffff864cffff725effff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -1014,7 +1014,7 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 0.37647814, y: 1.6869464, z: -10.612834}
+    m_Target: {x: 0, y: 0, z: 0}
     speed: 2
     m_Value: {x: 0.37647814, y: 1.6869464, z: -10.612834}
   m_RenderMode: 0
@@ -1062,21 +1062,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.0071057864, y: 0.15002733, z: 0.0011021941, w: -0.9886823}
+    m_Target: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
     speed: 2
-<<<<<<< HEAD
-    m_Value: {x: 0.005622611, y: 0.15002489, z: 0.0008771057, w: -0.98866594}
-=======
-    m_Value: {x: -0.06169915, y: 0.0484867, z: -0.0029861352, w: -0.99693364}
->>>>>>> origin/main
+    m_Value: {x: 0.007105599, y: 0.15002339, z: 0.0011021651, w: -0.9886563}
   m_Size:
-    m_Target: 0.29228136
+    m_Target: 10
     speed: 2
-<<<<<<< HEAD
     m_Value: 0.29228136
-=======
-    m_Value: 194.85443
->>>>>>> origin/main
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1174,15 +1166,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-<<<<<<< HEAD
     m_SelectedIDs: 50d70000
     m_LastClickedID: 55120
-    m_ExpandedIDs: 0000000050d7000000ca9a3bffffff7f
-=======
-    m_SelectedIDs: 42a60000
-    m_LastClickedID: 42562
-    m_ExpandedIDs: 00000000a6a40000
->>>>>>> origin/main
+    m_ExpandedIDs: 000000004aa60000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1211,7 +1197,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a6a40000
+    m_ExpandedIDs: 000000004aa60000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
