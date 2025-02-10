@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 
@@ -18,9 +19,18 @@ public class PlacementSystem : MonoBehaviour
     [SerializeField]
     private GameObject gridVisualization;
 
+    private GridData floorData, BuildingData;
+
+    private Renderer previewRenderer;
+
+    private List<GameObject> placedGameObjects = new();
+
     private void Start()
     {
         stopPlacement();
+        floorData = new();
+        BuildingData = new();
+        previewRenderer = cellIndecator.GetComponentInChildren<Renderer>();
     }
 
   
@@ -46,9 +56,19 @@ public class PlacementSystem : MonoBehaviour
         }
         Vector3 mousePosition = inputManager.GetSelectedMapPosition();
         Vector3Int gridPosition = grid.WorldToCell(mousePosition);
+
+        bool placementValidity = CheckPlacementValidity(gridPosition, SelectedObjectIndex);
+        if (!placementValidity) 
+            return;
         GameObject gameObject = Instantiate(database.objects[SelectedObjectIndex].prefab);
         gameObject.transform.position = grid.GetCellCenterWorld(gridPosition);
+        placedGameObjects.Add(gameObject);
+        GridData selectedData = BuildingData;
+        selectedData.AddObjectAt(gridPosition, database.objects[SelectedObjectIndex].Size, database.objects[SelectedObjectIndex].ID, placedGameObjects.Count -1);
     }
+
+   
+
     private void stopPlacement()
     {
         SelectedObjectIndex = -1;
@@ -64,7 +84,18 @@ public class PlacementSystem : MonoBehaviour
             return; 
         Vector3 mousePosition = inputManager.GetSelectedMapPosition();
         Vector3Int gridPosition = grid.WorldToCell(mousePosition);
+
+        bool placementValidity = CheckPlacementValidity(gridPosition, SelectedObjectIndex);
+        previewRenderer.material.color = placementValidity ? Color.white : Color.red;   
+
         mouseIndicator.transform.position = mousePosition;
         cellIndecator.transform.position = grid.GetCellCenterWorld(gridPosition);
+    }
+
+
+    private bool CheckPlacementValidity(Vector3Int gridPosition, int selectedObjectIndex)
+    {
+        GridData selectedData = BuildingData;
+        return selectedData.CanPlaceObjectAt(gridPosition, database.objects[selectedObjectIndex].Size);
     }
 }
