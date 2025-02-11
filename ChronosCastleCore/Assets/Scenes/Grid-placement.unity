@@ -306,6 +306,53 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 488418736}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &589150004
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 589150006}
+  - component: {fileID: 589150005}
+  m_Layer: 0
+  m_Name: PreviewSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &589150005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 589150004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e1b48d0ccf2e9d49b4e3a7a066e4558, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  previewYOffset: 0.06
+  cellIndicator: {fileID: 651164972}
+  previewMaterialPrefab: {fileID: 2100000, guid: 3531440b201d364419e6289090d5aabd, type: 2}
+--- !u!4 &589150006
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 589150004}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 594742421}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &594742420
 GameObject:
   m_ObjectHideFlags: 0
@@ -340,6 +387,7 @@ Transform:
   - {fileID: 488418737}
   - {fileID: 2022300359}
   - {fileID: 651164973}
+  - {fileID: 589150006}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &651164972 stripped
@@ -612,11 +660,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mouseIndicator: {fileID: 488418736}
-  cellIndecator: {fileID: 651164972}
   inputManager: {fileID: 1435640294}
   grid: {fileID: 1517168233}
   database: {fileID: 11400000, guid: e2fb13c3023cf1e4ca8d6fa5d76a5ec9, type: 2}
   gridVisualization: {fileID: 1816592572}
+  preview: {fileID: 589150005}
 --- !u!1 &1079888473
 GameObject:
   m_ObjectHideFlags: 0
@@ -747,6 +795,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 594742421}
     m_Modifications:
     - target: {fileID: 1307464553728201285, guid: d18eb64f1195e2b42859c1837fd4ea2b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1307464553728201285, guid: d18eb64f1195e2b42859c1837fd4ea2b, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1307464553728201285, guid: d18eb64f1195e2b42859c1837fd4ea2b, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1307464553728201285, guid: d18eb64f1195e2b42859c1837fd4ea2b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -785,6 +845,10 @@ PrefabInstance:
     - target: {fileID: 1307464553728201285, guid: d18eb64f1195e2b42859c1837fd4ea2b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1307464553728201285, guid: d18eb64f1195e2b42859c1837fd4ea2b, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4452180145075213626, guid: d18eb64f1195e2b42859c1837fd4ea2b, type: 3}
       propertyPath: m_Name
@@ -1029,6 +1093,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 88d92387969276b4593302ace70a0d9c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 88d92387969276b4593302ace70a0d9c, type: 3}
+      propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 88d92387969276b4593302ace70a0d9c, type: 3}
