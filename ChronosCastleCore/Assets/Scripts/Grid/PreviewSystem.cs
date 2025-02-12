@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 public class PreviewSystem : MonoBehaviour
@@ -25,18 +24,19 @@ public class PreviewSystem : MonoBehaviour
 
     public void StartShowingPlacementPreview(GameObject prefab, Vector2Int size)
     {
-        if (previewObject)
-            Destroy(previewObject);
+        //if (previewObject)
+        //    Destroy(previewObject);
         previewObject = Instantiate(prefab);
         PreparePreview(previewObject);
         PrepareCursor(size);
         cellIndicator.SetActive(true);
     }
 
-    private void PrepareCursor(Vector2Int size)
+    private void PrepareCursor(Vector2 size)
     {
-        if (size.x > 0 || size.y > 0) {
-            cellIndicator.transform.localScale = new Vector3(size.x/ 2, 1, size.y /2);
+        if (size.x > 0 || size.y > 0)
+        {
+            cellIndicator.transform.localScale = new Vector3(size.x/2, 1, size.y/2);
             cellIndicatorRenderer.material.mainTextureScale = size;
         }
     }
@@ -58,21 +58,34 @@ public class PreviewSystem : MonoBehaviour
     public void StopShowingPreview()
     {
         cellIndicator.SetActive(false);
-        Destroy(previewObject);
+
+        if (previewObject != null)
+            Destroy(previewObject);
     }
 
     public void UpdatePos(Vector3 pos, bool valid)
     {
-        MovePreview(pos);
+        if (previewObject != null)
+        {
+            MovePreview(pos);
+            ApplyFeedbackToPreview(valid);
+        }
         MoveCursor(pos);
-        ApplyFeedback(valid);
+        ApplyFeedbackToCursor(valid);
     }
 
-    private void ApplyFeedback(bool valid)
+    private void ApplyFeedbackToPreview(bool valid)
     {
-        Color c = valid ? Color.white : Color.red;
+        UnityEngine.Color c = valid ? UnityEngine.Color.white : UnityEngine.Color.red;
         c.a = 0.5f;
         previewMaterialInstance.color = c;
+
+    }
+    private void ApplyFeedbackToCursor(bool valid)
+    {
+        UnityEngine.Color c = valid ? UnityEngine.Color.white : UnityEngine.Color.red;
+        c.a = 0.5f;
+
         cellIndicatorRenderer.material.color = c;
     }
 
@@ -85,4 +98,12 @@ public class PreviewSystem : MonoBehaviour
     {
         previewObject.transform.position = new Vector3(pos.x, pos.y + previewYOffset, pos.z);
     }
+
+    internal void StartShowingRemovePreview()
+    {
+        cellIndicator.SetActive(true);
+        PrepareCursor(Vector2Int.one);
+        ApplyFeedbackToCursor(false);
+    }
 }
+
