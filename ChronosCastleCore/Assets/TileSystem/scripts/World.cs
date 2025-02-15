@@ -25,10 +25,8 @@ public class World : MonoBehaviour
 
     }
 
-
     public void SetStructure(int goIndex, Vector3 pos)
     {
-        
         GameObject go = database.GetPlacedObjectByID(goIndex);
         var offset = new Vector2(pos.x > 0 ? pos.x - 0.5f : pos.x + 0.5f, pos.y > 0 ? pos.y - 0.5f : pos.y + 0.5f);
         tiles[offset].SetStructure(go);
@@ -38,14 +36,6 @@ public class World : MonoBehaviour
             Debug.Log(newTile.IsBlocked());
         };
     }
-
-
-
-
-
-
-
-
 
     private void OnDestroy()
     {
