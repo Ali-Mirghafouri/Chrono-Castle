@@ -39,8 +39,12 @@ public class Tile
         return Structure;
     }
 
-    public void SetStructure(GameObject go)
+    public void AddStructure(GameObject go)
     {
         this.Structure = go;
+    }
+    public void RemoveStructure()
+    {
+        this.Structure = null;
     }
 }

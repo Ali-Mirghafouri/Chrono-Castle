@@ -17,7 +17,7 @@ public class GridData
             placedObjects[pos] = data;
             if (World.current != null)
             {
-            World.current.SetStructure(placedObjectIndex, pos);
+            World.current.AddStructure(placedObjectIndex, pos);
             }
 
         }
@@ -63,6 +63,10 @@ public class GridData
         foreach (var pos in placedObjects[gridPos].occupiedPositions)
         {
             placedObjects.Remove(pos);
+            if (World.current != null)
+            {
+                World.current.RemoveStructure(pos);
+            }
         }
     }
 
