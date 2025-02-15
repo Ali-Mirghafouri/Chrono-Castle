@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\ameer\\Desktop\\Ali Projects\\Chrono-Castle\\ChronosCastleCore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D754AD96-CF19-5601-A0A7-A2796C0D896E}|Assembly-CSharp.csproj|c:\\users\\ameer\\desktop\\ali projects\\chrono-castle\\chronoscastlecore\\assets\\scripts\\gameeventsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D754AD96-CF19-5601-A0A7-A2796C0D896E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameeventsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D754AD96-CF19-5601-A0A7-A2796C0D896E}|Assembly-CSharp.csproj|c:\\users\\ameer\\desktop\\ali projects\\chrono-castle\\chronoscastlecore\\assets\\scripts\\audio related\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D754AD96-CF19-5601-A0A7-A2796C0D896E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\audio related\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GameEventSystem.cs",
-              "DocumentMoniker": "C:\\Users\\ameer\\Desktop\\Ali Projects\\Chrono-Castle\\ChronosCastleCore\\Assets\\Scripts\\GameEventSystem.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameEventSystem.cs",
-              "ToolTip": "C:\\Users\\ameer\\Desktop\\Ali Projects\\Chrono-Castle\\ChronosCastleCore\\Assets\\Scripts\\GameEventSystem.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameEventSystem.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFwAAAAAAAAA",
+              "Title": "AudioManager.cs",
+              "DocumentMoniker": "C:\\Users\\ameer\\Desktop\\Ali Projects\\Chrono-Castle\\ChronosCastleCore\\Assets\\Scripts\\Audio Related\\AudioManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Audio Related\\AudioManager.cs",
+              "ToolTip": "C:\\Users\\ameer\\Desktop\\Ali Projects\\Chrono-Castle\\ChronosCastleCore\\Assets\\Scripts\\Audio Related\\AudioManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Audio Related\\AudioManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T07:05:09.672Z",
+              "WhenOpened": "2025-02-15T11:30:26.81Z",
               "EditorCaption": ""
             }
           ]
