@@ -15,18 +15,23 @@ public class GridData
             if (placedObjects.ContainsKey(pos)) 
                 throw new Exception($"Dictionary already contains this cell position {pos}");
             placedObjects[pos] = data;
+            if (World.current != null)
+            {
+            World.current.SetStructure(placedObjectIndex, pos);
+            }
+
         }
     }
 
-    private List<Vector3Int> CalculatePos(Vector3Int gridPosition, Vector2Int objectSize)
+    public List<Vector3Int> CalculatePos(Vector3Int gridPosition, Vector2Int objectSize)
     {
         List<Vector3Int> returnVal = new();
-        var offset = new Vector3Int((objectSize.x / 2), 0, objectSize.y / 2);
+        var offset = new Vector3Int((objectSize.x / 2), objectSize.y / 2, 0);
         for (int i = 0; i < objectSize.x; i++)
         {
             for (int y = 0; y < objectSize.y; y++)
             {
-                returnVal.Add((gridPosition - offset) + new Vector3Int(i , 0, y));
+                returnVal.Add((gridPosition - offset) + new Vector3Int(i , y, 0));
                
             }
         }
@@ -59,6 +64,11 @@ public class GridData
         {
             placedObjects.Remove(pos);
         }
+    }
+
+    public Dictionary<Vector3Int, PlacementData> GetPlacedObjects()
+    {
+        return placedObjects;
     }
 }
 

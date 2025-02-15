@@ -23,4 +23,9 @@ public class ObjectPlacer : MonoBehaviour
         Destroy(placedGameObjects[gameObjectIndex]);
         placedGameObjects[gameObjectIndex] = null;
     }
+
+    public GameObject GetPlacedObjectByID (int gameObjectIndex)
+    {
+        return placedGameObjects[gameObjectIndex];
+    }
 }

@@ -15,8 +15,7 @@ public class PlacementSystem : MonoBehaviour
     private ObjectsDatabase database;
   
 
-    [SerializeField]
-    private GameObject gridVisualization;
+    public GameObject[] gridVisualization;
 
     private GridData floorData, BuildingData;
 
@@ -32,16 +31,18 @@ public class PlacementSystem : MonoBehaviour
 
     private void Start()
     {
-        stopPlacement();
         floorData = new();
         BuildingData = new();
+        gridVisualization = GameObject.FindGameObjectsWithTag("Grid");
+        VisToggle(false);
     }
 
-  
+
     public void startPlacement(int ID)
     {
         stopPlacement();
-        gridVisualization.SetActive(true);
+        VisToggle(true);
+
         buildingState = new PlacementState(ID, grid, preview, database, BuildingData, objectPlacer);
         inputManager.OnClicked += PlaceStructure;
         inputManager.OnExit += stopPlacement;
@@ -50,7 +51,8 @@ public class PlacementSystem : MonoBehaviour
     public void StartRemoving()
     {
         stopPlacement();
-        gridVisualization.SetActive(true);
+        VisToggle(true);
+
         buildingState = new RemovingState(grid, preview, BuildingData, objectPlacer);
         inputManager.OnClicked += PlaceStructure;
         inputManager.OnExit += stopPlacement;
@@ -73,7 +75,7 @@ public class PlacementSystem : MonoBehaviour
 
     private void stopPlacement()
     {
-        gridVisualization.SetActive(false);
+        VisToggle(false);
         inputManager.OnClicked -= PlaceStructure;
         inputManager.OnExit -= stopPlacement;
         lastDetectedPos = Vector3Int.zero;
@@ -81,6 +83,14 @@ public class PlacementSystem : MonoBehaviour
             return;
         buildingState.EndState();
         buildingState = null;   
+    }
+
+    public void VisToggle(Boolean active)
+    {
+        foreach (GameObject go in gridVisualization)
+        {
+            go.SetActive(active);
+        }
     }
 
     private void Update()

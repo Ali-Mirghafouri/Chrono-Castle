@@ -1,16 +1,46 @@
+using System;
 using UnityEngine;
 
-public class Tiles : MonoBehaviour
+[Serializable]
+public class Tile 
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+
+    private GameObject Structure;
+
+    private Vector2 Pos;
+    private Vector3 WorldPos;
+
+    public Tile(GameObject structure, Vector2 pos, Vector3 worldPos)
     {
-        
+        Structure = structure;
+        Pos = pos;
+        WorldPos = worldPos;
     }
 
-    // Update is called once per frame
-    void Update()
+
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public bool IsBlocked()
     {
-        
+        return Structure != null;
+    }
+
+    public Vector2 GetPos()
+    {
+        return Pos;
+    }
+
+    public Vector3 GetWorldPos()
+    {
+        return WorldPos;
+    }
+
+    public GameObject GetStructure()
+    {
+        return Structure;
+    }
+
+    public void SetStructure(GameObject go)
+    {
+        this.Structure = go;
     }
 }
