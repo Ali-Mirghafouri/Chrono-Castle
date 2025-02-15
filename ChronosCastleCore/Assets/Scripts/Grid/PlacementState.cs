@@ -22,7 +22,6 @@ public class PlacementState : IBuildingState
         selectedObjectIndex = database.objects.FindIndex(data => data.ID == ID);
         if (selectedObjectIndex > -1)
         {
-
             previewSystem.StartShowingPlacementPreview(database.objects[selectedObjectIndex].prefab,
             database.objects[selectedObjectIndex].Size);
         }
@@ -30,7 +29,6 @@ public class PlacementState : IBuildingState
         {
             throw new System.Exception($"No Object with ID {iD}");
         }
-
     }
 
     public void EndState()
