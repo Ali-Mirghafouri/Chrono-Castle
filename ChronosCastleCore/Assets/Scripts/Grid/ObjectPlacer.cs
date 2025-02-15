@@ -26,6 +26,15 @@ public class ObjectPlacer : MonoBehaviour
 
     public GameObject GetPlacedObjectByID (int gameObjectIndex)
     {
-        return placedGameObjects[gameObjectIndex];
+        GameObject goToReturn = placedGameObjects[gameObjectIndex];
+        if(goToReturn == null) 
+        {
+            Debug.Log("wtf bro");
+            return null;
+        }
+        else 
+        {
+            return placedGameObjects[gameObjectIndex];
+        }        
     }
 }
