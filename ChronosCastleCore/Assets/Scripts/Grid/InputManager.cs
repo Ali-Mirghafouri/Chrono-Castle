@@ -1,4 +1,6 @@
+using System;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class InputManager : MonoBehaviour
 {
@@ -11,13 +13,27 @@ public class InputManager : MonoBehaviour
     [SerializeReference]
     private LayerMask Placement_layerMask;
 
+    public event Action OnClicked, OnExit;
+
+    private void Update()
+    {
+        if (Input.GetMouseButtonDown(0))
+            OnClicked?.Invoke();
+        if (Input.GetKeyDown(KeyCode.Escape))
+            OnExit?.Invoke();
+    }
+
+    public bool IsPointerOverUI()
+         => EventSystem.current.IsPointerOverGameObject();
+    
+
     public Vector3 GetSelectedMapPosition()
     {
         Vector3 mousePos = Input.mousePosition;
         mousePos.z = sceneCamera.nearClipPlane;
         Ray ray = sceneCamera.ScreenPointToRay(mousePos);
         RaycastHit hit;
-        if (Physics.Raycast(ray, out hit, 300, Placement_layerMask))
+        if (Physics.Raycast(ray, out hit, 3000, Placement_layerMask))
         {
             Lastposition = hit.point;
         }
