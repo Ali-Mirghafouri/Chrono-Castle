@@ -17,8 +17,6 @@ public class PlacementSystem : MonoBehaviour
 
     public GameObject[] gridVisualization;
 
-    private GridData floorData, BuildingData;
-
     [SerializeField]
     private PreviewSystem preview;
 
@@ -31,8 +29,6 @@ public class PlacementSystem : MonoBehaviour
 
     private void Start()
     {
-        floorData = new();
-        BuildingData = new();
         gridVisualization = GameObject.FindGameObjectsWithTag("Grid");
         VisToggle(false);
     }
@@ -43,17 +39,18 @@ public class PlacementSystem : MonoBehaviour
         stopPlacement();
         VisToggle(true);
 
-        buildingState = new PlacementState(ID, grid, preview, database, BuildingData, objectPlacer);
+        buildingState = new PlacementState(ID, grid, preview, database, objectPlacer);
         inputManager.OnClicked += PlaceStructure;
         inputManager.OnExit += stopPlacement;
     }
+
 
     public void StartRemoving()
     {
         stopPlacement();
         VisToggle(true);
 
-        buildingState = new RemovingState(grid, preview, BuildingData, objectPlacer);
+        buildingState = new RemovingState(grid, preview, objectPlacer);
         inputManager.OnClicked += PlaceStructure;
         inputManager.OnExit += stopPlacement;
     }
@@ -66,8 +63,8 @@ public class PlacementSystem : MonoBehaviour
         }
         Vector3 mousePosition = inputManager.GetSelectedMapPosition();
         Vector3Int gridPosition = grid.WorldToCell(mousePosition);
-
-        buildingState.OnAction(gridPosition);
+        //Debug.Log(grid.GetCellCenterWorld(gridPosition));
+        buildingState.OnAction(grid.GetCellCenterWorld(gridPosition));
 
     }
 
@@ -101,7 +98,7 @@ public class PlacementSystem : MonoBehaviour
         Vector3Int gridPosition = grid.WorldToCell(mousePosition);
         if (lastDetectedPos != gridPosition)
         {
-            buildingState.UpdateState(gridPosition);
+            buildingState.UpdateState(grid.GetCellCenterWorld( gridPosition));
             lastDetectedPos = gridPosition;
         }
             

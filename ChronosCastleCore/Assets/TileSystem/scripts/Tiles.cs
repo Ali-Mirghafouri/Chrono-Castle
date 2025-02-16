@@ -5,14 +5,18 @@ using UnityEngine;
 public class Tile 
 {
 
+    private GameObject current;
+
     private GameObject Structure;
+    private int StructureIndex = -1;
 
     private Vector2 Pos;
     private Vector3 WorldPos;
 
-    public Tile(GameObject structure, Vector2 pos, Vector3 worldPos)
+
+    public Tile(GameObject tile, Vector2 pos, Vector3 worldPos)
     {
-        Structure = structure;
+        current = tile;
         Pos = pos;
         WorldPos = worldPos;
     }
@@ -29,6 +33,11 @@ public class Tile
         return Pos;
     }
 
+    public int GetStructureIndex()
+    {
+        return StructureIndex;
+    }
+
     public Vector3 GetWorldPos()
     {
         return WorldPos;
@@ -39,12 +48,19 @@ public class Tile
         return Structure;
     }
 
-    public void AddStructure(GameObject go)
+    public GameObject GetCurrent()
+    {
+        return current;
+    }
+
+    public void AddStructure(GameObject go, int index)
     {
         this.Structure = go;
+        this.StructureIndex = index;
     }
     public void RemoveStructure()
     {
         this.Structure = null;
+        this.StructureIndex = -1;
     }
 }
