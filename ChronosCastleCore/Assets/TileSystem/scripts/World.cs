@@ -52,12 +52,12 @@ public class World : MonoBehaviour
     public List<Vector3> CalculatePos(Vector3 gridPosition, Vector2Int objectSize)
     {
         List<Vector3> returnVal = new();
-        var offset = new Vector3Int((objectSize.x / 2), objectSize.y / 2, 0);
+        var offset = new Vector3Int((objectSize.x / 2), 0, objectSize.y / 2);
         for (int i = 0; i < objectSize.x; i++)
         {
             for (int y = 0; y < objectSize.y; y++)
             {
-                returnVal.Add((gridPosition - offset) + new Vector3(i, y, 0));
+                returnVal.Add((gridPosition - offset) + new Vector3(i, 0, y));
 
             }
         }
