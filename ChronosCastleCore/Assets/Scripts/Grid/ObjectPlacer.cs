@@ -14,27 +14,18 @@ public class ObjectPlacer : MonoBehaviour
         return placedGameObjects.Count - 1;
     }
 
-    internal void RemoveObjectAt(int gameObjectIndex)
+    internal void RemoveObjectAt(Tile tile)
     {
-        if (placedGameObjects.Count <= gameObjectIndex || placedGameObjects[gameObjectIndex] == null)
-        {
+        if (tile == null)
             return;
-        }
-        Destroy(placedGameObjects[gameObjectIndex]);
-        placedGameObjects[gameObjectIndex] = null;
+        Destroy(placedGameObjects[tile.GetStructureIndex()]);
+        placedGameObjects[tile.GetStructureIndex()] = null;
+        tile.RemoveStructure();
     }
 
     public GameObject GetPlacedObjectByID (int gameObjectIndex)
     {
         GameObject goToReturn = placedGameObjects[gameObjectIndex];
-        if(goToReturn == null) 
-        {
-            Debug.Log("wtf bro");
-            return null;
-        }
-        else 
-        {
             return placedGameObjects[gameObjectIndex];
-        }        
     }
 }

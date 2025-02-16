@@ -24,8 +24,8 @@ public class PreviewSystem : MonoBehaviour
 
     public void StartShowingPlacementPreview(GameObject prefab, Vector2Int size)
     {
-        //if (previewObject)
-        //    Destroy(previewObject);
+        if (previewObject)
+            Destroy(previewObject);
         previewObject = Instantiate(prefab);
         PreparePreview(previewObject);
         PrepareCursor(size);
@@ -36,7 +36,7 @@ public class PreviewSystem : MonoBehaviour
     {
         if (size.x > 0 || size.y > 0)
         {
-            cellIndicator.transform.localScale = new Vector3(size.x/2, 1, size.y / 2);
+            cellIndicator.transform.localScale = new Vector3(size.x / 2, 1, size.y / 2);
             cellIndicatorRenderer.material.mainTextureScale = size;
         }
     }
@@ -65,6 +65,7 @@ public class PreviewSystem : MonoBehaviour
 
     public void UpdatePos(Vector3 pos, bool valid)
     {
+        //Debug.Log(previewObject != null);
         if (previewObject != null)
         {
             MovePreview(pos);
@@ -85,7 +86,6 @@ public class PreviewSystem : MonoBehaviour
     {
         UnityEngine.Color c = valid ? UnityEngine.Color.white : UnityEngine.Color.red;
         c.a = 0.5f;
-
         cellIndicatorRenderer.material.color = c;
     }
 
@@ -96,7 +96,9 @@ public class PreviewSystem : MonoBehaviour
 
     private void MovePreview(Vector3 pos)
     {
-        previewObject.transform.position = new Vector3(pos.x, pos.y + previewYOffset, pos.z);
+        //Debug.Log(pos);
+
+        previewObject.transform.position = new Vector3(pos.x, pos.y + previewYOffset, pos.z); ;
     }
 
     internal void StartShowingRemovePreview()

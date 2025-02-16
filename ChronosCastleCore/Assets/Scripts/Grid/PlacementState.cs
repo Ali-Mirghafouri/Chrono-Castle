@@ -7,16 +7,14 @@ public class PlacementState : IBuildingState
     Grid grid;
     PreviewSystem previewSystem;
     ObjectsDatabase database;
-    GridData building;
     ObjectPlacer ObjectPlacer;
 
-    public PlacementState(int iD, Grid grid, PreviewSystem previewSystem, ObjectsDatabase database, GridData building, ObjectPlacer objectPlacer)
+    public PlacementState(int iD, Grid grid, PreviewSystem previewSystem, ObjectsDatabase database, ObjectPlacer objectPlacer)
     {
         ID = iD;
         this.grid = grid;
         this.previewSystem = previewSystem;
         this.database = database;
-        this.building = building;
         ObjectPlacer = objectPlacer;
 
         selectedObjectIndex = database.objects.FindIndex(data => data.ID == ID);
@@ -36,29 +34,27 @@ public class PlacementState : IBuildingState
         previewSystem.StopShowingPreview();
     }
 
-    public void OnAction(Vector3Int gridPos)
+    public void OnAction(Vector3 gridPos)
     {
+        //Debug.Log(pos);
+
         bool placementValidity = CheckPlacementValidity(gridPos, selectedObjectIndex);
         if (!placementValidity)
             return;
+        int index = ObjectPlacer.PlaceObject(database.objects[selectedObjectIndex].prefab, gridPos);
 
-        int index = ObjectPlacer.PlaceObject(database.objects[selectedObjectIndex].prefab, grid.GetCellCenterWorld(gridPos));
-
-
-        GridData selectedData = building;
-        selectedData.AddObjectAt(gridPos, database.objects[selectedObjectIndex].Size, database.objects[selectedObjectIndex].ID, index);
-        previewSystem.UpdatePos(grid.GetCellCenterWorld(gridPos), false);
+        World.current.AddStructure(gridPos, database.objects[selectedObjectIndex].Size, database.objects[selectedObjectIndex].ID, index);
+        previewSystem.UpdatePos(gridPos, false);
     }
 
-    private bool CheckPlacementValidity(Vector3Int gridPosition, int selectedObjectIndex)
+    private bool CheckPlacementValidity(Vector3 gridPosition, int selectedObjectIndex)
     {
-        GridData selectedData = building;
-        return selectedData.CanPlaceObjectAt(gridPosition, database.objects[selectedObjectIndex].Size);
+        return World.current.CanPlaceObjectAt(gridPosition, database.objects[selectedObjectIndex].Size);
     }
 
-    public void UpdateState(Vector3Int gridPos)
+    public void UpdateState(Vector3 gridPos)
     {
         bool placementValidity = CheckPlacementValidity(gridPos, selectedObjectIndex);
-        previewSystem.UpdatePos(grid.GetCellCenterWorld(gridPos), placementValidity);
+        previewSystem.UpdatePos(gridPos, placementValidity);
     }
 }
