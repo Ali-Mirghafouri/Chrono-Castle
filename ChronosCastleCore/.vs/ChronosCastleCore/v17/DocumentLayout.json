@@ -1,46 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ameer\\Desktop\\Ali Projects\\Chrono-Castle\\ChronosCastleCore\\",
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Unity\\Chrono-Castle\\ChronosCastleCore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D754AD96-CF19-5601-A0A7-A2796C0D896E}|Assembly-CSharp.csproj|C:\\Users\\ameer\\Desktop\\Ali Projects\\Chrono-Castle\\ChronosCastleCore\\assets\\scripts\\audio related\\sfxeventmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D754AD96-CF19-5601-A0A7-A2796C0D896E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\audio related\\sfxeventmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D754AD96-CF19-5601-A0A7-A2796C0D896E}|Assembly-CSharp.csproj|c:\\users\\user\\desktop\\unity\\chrono-castle\\chronoscastlecore\\assets\\tilesystem\\scripts\\world.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D754AD96-CF19-5601-A0A7-A2796C0D896E}|Assembly-CSharp.csproj|solutionrelative:assets\\tilesystem\\scripts\\world.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D754AD96-CF19-5601-A0A7-A2796C0D896E}|Assembly-CSharp.csproj|C:\\Users\\ameer\\Desktop\\Ali Projects\\Chrono-Castle\\ChronosCastleCore\\assets\\scripts\\audio related\\sfxmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D754AD96-CF19-5601-A0A7-A2796C0D896E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\audio related\\sfxmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D754AD96-CF19-5601-A0A7-A2796C0D896E}|Assembly-CSharp.csproj|C:\\Users\\User\\Desktop\\Unity\\Chrono-Castle\\ChronosCastleCore\\assets\\tilesystem\\scripts\\tiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D754AD96-CF19-5601-A0A7-A2796C0D896E}|Assembly-CSharp.csproj|solutionrelative:assets\\tilesystem\\scripts\\tiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D754AD96-CF19-5601-A0A7-A2796C0D896E}|Assembly-CSharp.csproj|C:\\Users\\ameer\\Desktop\\Ali Projects\\Chrono-Castle\\ChronosCastleCore\\assets\\scripts\\gameeventsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D754AD96-CF19-5601-A0A7-A2796C0D896E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameeventsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D754AD96-CF19-5601-A0A7-A2796C0D896E}|Assembly-CSharp.csproj|c:\\users\\ameer\\desktop\\ali projects\\chrono-castle\\chronoscastlecore\\assets\\scripts\\grid\\placementsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D754AD96-CF19-5601-A0A7-A2796C0D896E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\grid\\placementsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D754AD96-CF19-5601-A0A7-A2796C0D896E}|Assembly-CSharp.csproj|C:\\Users\\ameer\\Desktop\\Ali Projects\\Chrono-Castle\\ChronosCastleCore\\assets\\scripts\\structure scripts\\structurebasescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D754AD96-CF19-5601-A0A7-A2796C0D896E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\structure scripts\\structurebasescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D754AD96-CF19-5601-A0A7-A2796C0D896E}|Assembly-CSharp.csproj|c:\\users\\ameer\\desktop\\ali projects\\chrono-castle\\chronoscastlecore\\assets\\scripts\\grid\\objectplacer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D754AD96-CF19-5601-A0A7-A2796C0D896E}|Assembly-CSharp.csproj|C:\\Users\\User\\Desktop\\Unity\\Chrono-Castle\\ChronosCastleCore\\assets\\scripts\\grid\\objectplacer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D754AD96-CF19-5601-A0A7-A2796C0D896E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\grid\\objectplacer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D754AD96-CF19-5601-A0A7-A2796C0D896E}|Assembly-CSharp.csproj|C:\\Users\\ameer\\Desktop\\Ali Projects\\Chrono-Castle\\ChronosCastleCore\\assets\\scripts\\ai scripts\\unitstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D754AD96-CF19-5601-A0A7-A2796C0D896E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ai scripts\\unitstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D754AD96-CF19-5601-A0A7-A2796C0D896E}|Assembly-CSharp.csproj|C:\\Users\\User\\Desktop\\Unity\\Chrono-Castle\\ChronosCastleCore\\assets\\scripts\\grid\\placementsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D754AD96-CF19-5601-A0A7-A2796C0D896E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\grid\\placementsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D754AD96-CF19-5601-A0A7-A2796C0D896E}|Assembly-CSharp.csproj|C:\\Users\\ameer\\Desktop\\Ali Projects\\Chrono-Castle\\ChronosCastleCore\\assets\\scripts\\ai scripts\\unitmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D754AD96-CF19-5601-A0A7-A2796C0D896E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ai scripts\\unitmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D754AD96-CF19-5601-A0A7-A2796C0D896E}|Assembly-CSharp.csproj|C:\\Users\\User\\Desktop\\Unity\\Chrono-Castle\\ChronosCastleCore\\assets\\scripts\\grid\\placementstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D754AD96-CF19-5601-A0A7-A2796C0D896E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\grid\\placementstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D754AD96-CF19-5601-A0A7-A2796C0D896E}|Assembly-CSharp.csproj|C:\\Users\\ameer\\Desktop\\Ali Projects\\Chrono-Castle\\ChronosCastleCore\\assets\\scripts\\structure scripts\\structurestats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D754AD96-CF19-5601-A0A7-A2796C0D896E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\structure scripts\\structurestats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D754AD96-CF19-5601-A0A7-A2796C0D896E}|Assembly-CSharp.csproj|C:\\Users\\User\\Desktop\\Unity\\Chrono-Castle\\ChronosCastleCore\\Assets\\Scripts\\Grid\\GridData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D754AD96-CF19-5601-A0A7-A2796C0D896E}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\Grid\\GridData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ameer\\Desktop\\Ali Projects\\Chrono-Castle\\ChronosCastleCore\\Assets\\Scripts\\Audio Related\\AudioManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Audio Related\\AudioManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D754AD96-CF19-5601-A0A7-A2796C0D896E}|Assembly-CSharp.csproj|C:\\Users\\User\\Desktop\\Unity\\Chrono-Castle\\ChronosCastleCore\\assets\\scripts\\grid\\removingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D754AD96-CF19-5601-A0A7-A2796C0D896E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\grid\\removingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D754AD96-CF19-5601-A0A7-A2796C0D896E}|Assembly-CSharp.csproj|C:\\Users\\User\\Desktop\\Unity\\Chrono-Castle\\ChronosCastleCore\\Assets\\Scripts\\Grid\\ObjectsDatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D754AD96-CF19-5601-A0A7-A2796C0D896E}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\Grid\\ObjectsDatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D754AD96-CF19-5601-A0A7-A2796C0D896E}|Assembly-CSharp.csproj|C:\\Users\\User\\Desktop\\Unity\\Chrono-Castle\\ChronosCastleCore\\assets\\scripts\\grid\\previewsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D754AD96-CF19-5601-A0A7-A2796C0D896E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\grid\\previewsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D754AD96-CF19-5601-A0A7-A2796C0D896E}|Assembly-CSharp.csproj|C:\\Users\\User\\Desktop\\Unity\\Chrono-Castle\\ChronosCastleCore\\assets\\scripts\\grid\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D754AD96-CF19-5601-A0A7-A2796C0D896E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\grid\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D754AD96-CF19-5601-A0A7-A2796C0D896E}|Assembly-CSharp.csproj|C:\\Users\\User\\Desktop\\Unity\\Chrono-Castle\\ChronosCastleCore\\assets\\scripts\\grid\\cameramovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D754AD96-CF19-5601-A0A7-A2796C0D896E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\grid\\cameramovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D754AD96-CF19-5601-A0A7-A2796C0D896E}|Assembly-CSharp.csproj|C:\\Users\\User\\Desktop\\Unity\\Chrono-Castle\\ChronosCastleCore\\assets\\scripts\\grid\\ibuildingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D754AD96-CF19-5601-A0A7-A2796C0D896E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\grid\\ibuildingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,133 +58,154 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ObjectPlacer.cs",
-              "DocumentMoniker": "C:\\Users\\ameer\\Desktop\\Ali Projects\\Chrono-Castle\\ChronosCastleCore\\Assets\\Scripts\\Grid\\ObjectPlacer.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Grid\\ObjectPlacer.cs",
-              "ToolTip": "C:\\Users\\ameer\\Desktop\\Ali Projects\\Chrono-Castle\\ChronosCastleCore\\Assets\\Scripts\\Grid\\ObjectPlacer.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Grid\\ObjectPlacer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABVAAAA",
+              "DocumentIndex": 1,
+              "Title": "Tiles.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Unity\\Chrono-Castle\\ChronosCastleCore\\Assets\\TileSystem\\scripts\\Tiles.cs",
+              "RelativeDocumentMoniker": "Assets\\TileSystem\\scripts\\Tiles.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Unity\\Chrono-Castle\\ChronosCastleCore\\Assets\\TileSystem\\scripts\\Tiles.cs",
+              "RelativeToolTip": "Assets\\TileSystem\\scripts\\Tiles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T08:13:04.645Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PlacementSystem.cs",
-              "DocumentMoniker": "C:\\Users\\ameer\\Desktop\\Ali Projects\\Chrono-Castle\\ChronosCastleCore\\Assets\\Scripts\\Grid\\PlacementSystem.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Grid\\PlacementSystem.cs",
-              "ToolTip": "C:\\Users\\ameer\\Desktop\\Ali Projects\\Chrono-Castle\\ChronosCastleCore\\Assets\\Scripts\\Grid\\PlacementSystem.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Grid\\PlacementSystem.cs",
-              "ViewState": "AQIAAE8AAAAAAAAAAAAcwGQAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T08:06:33.936Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GameEventSystem.cs",
-              "DocumentMoniker": "C:\\Users\\ameer\\Desktop\\Ali Projects\\Chrono-Castle\\ChronosCastleCore\\Assets\\Scripts\\GameEventSystem.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameEventSystem.cs",
-              "ToolTip": "C:\\Users\\ameer\\Desktop\\Ali Projects\\Chrono-Castle\\ChronosCastleCore\\Assets\\Scripts\\GameEventSystem.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameEventSystem.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAQwDUAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T06:07:48.948Z",
+              "WhenOpened": "2025-02-15T07:37:11.974Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SFXEventManager.cs",
-              "DocumentMoniker": "C:\\Users\\ameer\\Desktop\\Ali Projects\\Chrono-Castle\\ChronosCastleCore\\Assets\\Scripts\\Audio Related\\SFXEventManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Audio Related\\SFXEventManager.cs",
-              "ToolTip": "C:\\Users\\ameer\\Desktop\\Ali Projects\\Chrono-Castle\\ChronosCastleCore\\Assets\\Scripts\\Audio Related\\SFXEventManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Audio Related\\SFXEventManager.cs",
-              "ViewState": "AQIAAFsAAAAAAAAAAAAYwB8AAAAJAAAA",
+              "Title": "World.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Unity\\Chrono-Castle\\ChronosCastleCore\\Assets\\TileSystem\\scripts\\World.cs",
+              "RelativeDocumentMoniker": "Assets\\TileSystem\\scripts\\World.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Unity\\Chrono-Castle\\ChronosCastleCore\\Assets\\TileSystem\\scripts\\World.cs",
+              "RelativeToolTip": "Assets\\TileSystem\\scripts\\World.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T06:06:31.785Z",
+              "WhenOpened": "2025-02-15T09:55:29.558Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SFXManager.cs",
-              "DocumentMoniker": "C:\\Users\\ameer\\Desktop\\Ali Projects\\Chrono-Castle\\ChronosCastleCore\\Assets\\Scripts\\Audio Related\\SFXManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Audio Related\\SFXManager.cs",
-              "ToolTip": "C:\\Users\\ameer\\Desktop\\Ali Projects\\Chrono-Castle\\ChronosCastleCore\\Assets\\Scripts\\Audio Related\\SFXManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Audio Related\\SFXManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "DocumentIndex": 10,
+              "Title": "CameraMovement.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Unity\\Chrono-Castle\\ChronosCastleCore\\Assets\\Scripts\\Grid\\CameraMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Grid\\CameraMovement.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Unity\\Chrono-Castle\\ChronosCastleCore\\Assets\\Scripts\\Grid\\CameraMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Grid\\CameraMovement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T13:16:10.844Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T08:51:14.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlacementSystem.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Unity\\Chrono-Castle\\ChronosCastleCore\\Assets\\Scripts\\Grid\\PlacementSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Grid\\PlacementSystem.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Unity\\Chrono-Castle\\ChronosCastleCore\\Assets\\Scripts\\Grid\\PlacementSystem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Grid\\PlacementSystem.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAADgv0UAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T07:05:09.672Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "AudioManager.cs",
-              "DocumentMoniker": "C:\\Users\\ameer\\Desktop\\Ali Projects\\Chrono-Castle\\ChronosCastleCore\\Assets\\Scripts\\Audio Related\\AudioManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Audio Related\\AudioManager.cs",
-              "ToolTip": "C:\\Users\\ameer\\Desktop\\Ali Projects\\Chrono-Castle\\ChronosCastleCore\\Assets\\Scripts\\Audio Related\\AudioManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Audio Related\\AudioManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Title": "InputManager.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Unity\\Chrono-Castle\\ChronosCastleCore\\Assets\\Scripts\\Grid\\InputManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Grid\\InputManager.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Unity\\Chrono-Castle\\ChronosCastleCore\\Assets\\Scripts\\Grid\\InputManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Grid\\InputManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T11:30:26.81Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UnitStats.cs",
-              "DocumentMoniker": "C:\\Users\\ameer\\Desktop\\Ali Projects\\Chrono-Castle\\ChronosCastleCore\\Assets\\Scripts\\AI Scripts\\UnitStats.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\AI Scripts\\UnitStats.cs",
-              "ToolTip": "C:\\Users\\ameer\\Desktop\\Ali Projects\\Chrono-Castle\\ChronosCastleCore\\Assets\\Scripts\\AI Scripts\\UnitStats.cs",
-              "RelativeToolTip": "Assets\\Scripts\\AI Scripts\\UnitStats.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T13:10:55.275Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UnitMovement.cs",
-              "DocumentMoniker": "C:\\Users\\ameer\\Desktop\\Ali Projects\\Chrono-Castle\\ChronosCastleCore\\Assets\\Scripts\\AI Scripts\\UnitMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\AI Scripts\\UnitMovement.cs",
-              "ToolTip": "C:\\Users\\ameer\\Desktop\\Ali Projects\\Chrono-Castle\\ChronosCastleCore\\Assets\\Scripts\\AI Scripts\\UnitMovement.cs",
-              "RelativeToolTip": "Assets\\Scripts\\AI Scripts\\UnitMovement.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T13:10:50.778Z"
+              "WhenOpened": "2025-02-08T08:07:47.001Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "StructureBaseScript.cs",
-              "DocumentMoniker": "C:\\Users\\ameer\\Desktop\\Ali Projects\\Chrono-Castle\\ChronosCastleCore\\Assets\\Scripts\\Structure Scripts\\StructureBaseScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Structure Scripts\\StructureBaseScript.cs",
-              "ToolTip": "C:\\Users\\ameer\\Desktop\\Ali Projects\\Chrono-Castle\\ChronosCastleCore\\Assets\\Scripts\\Structure Scripts\\StructureBaseScript.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Structure Scripts\\StructureBaseScript.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAfAAAA",
+              "Title": "PlacementState.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Unity\\Chrono-Castle\\ChronosCastleCore\\Assets\\Scripts\\Grid\\PlacementState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Grid\\PlacementState.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Unity\\Chrono-Castle\\ChronosCastleCore\\Assets\\Scripts\\Grid\\PlacementState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Grid\\PlacementState.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwC8AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T13:10:31.28Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-12T06:13:15.385Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "StructureStats.cs",
-              "DocumentMoniker": "C:\\Users\\ameer\\Desktop\\Ali Projects\\Chrono-Castle\\ChronosCastleCore\\Assets\\Scripts\\Structure Scripts\\StructureStats.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Structure Scripts\\StructureStats.cs",
-              "ToolTip": "C:\\Users\\ameer\\Desktop\\Ali Projects\\Chrono-Castle\\ChronosCastleCore\\Assets\\Scripts\\Structure Scripts\\StructureStats.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Structure Scripts\\StructureStats.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Title": "PreviewSystem.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Unity\\Chrono-Castle\\ChronosCastleCore\\Assets\\Scripts\\Grid\\PreviewSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Grid\\PreviewSystem.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Unity\\Chrono-Castle\\ChronosCastleCore\\Assets\\Scripts\\Grid\\PreviewSystem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Grid\\PreviewSystem.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwCIAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T13:09:58.183Z"
+              "WhenOpened": "2025-02-11T07:08:32.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ObjectPlacer.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Unity\\Chrono-Castle\\ChronosCastleCore\\Assets\\Scripts\\Grid\\ObjectPlacer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Grid\\ObjectPlacer.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Unity\\Chrono-Castle\\ChronosCastleCore\\Assets\\Scripts\\Grid\\ObjectPlacer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Grid\\ObjectPlacer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T06:03:24.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RemovingState.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Unity\\Chrono-Castle\\ChronosCastleCore\\Assets\\Scripts\\Grid\\RemovingState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Grid\\RemovingState.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Unity\\Chrono-Castle\\ChronosCastleCore\\Assets\\Scripts\\Grid\\RemovingState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Grid\\RemovingState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T06:43:15.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GridData.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Unity\\Chrono-Castle\\ChronosCastleCore\\Assets\\Scripts\\Grid\\GridData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Grid\\GridData.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Unity\\Chrono-Castle\\ChronosCastleCore\\Assets\\Scripts\\Grid\\GridData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Grid\\GridData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T06:16:14.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ObjectsDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Unity\\Chrono-Castle\\ChronosCastleCore\\Assets\\Scripts\\Grid\\ObjectsDatabase.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Grid\\ObjectsDatabase.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Unity\\Chrono-Castle\\ChronosCastleCore\\Assets\\Scripts\\Grid\\ObjectsDatabase.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Grid\\ObjectsDatabase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T08:23:17.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IBuildingState.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Unity\\Chrono-Castle\\ChronosCastleCore\\Assets\\Scripts\\Grid\\IBuildingState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Grid\\IBuildingState.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Unity\\Chrono-Castle\\ChronosCastleCore\\Assets\\Scripts\\Grid\\IBuildingState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Grid\\IBuildingState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T06:41:14.198Z"
             }
           ]
         }
