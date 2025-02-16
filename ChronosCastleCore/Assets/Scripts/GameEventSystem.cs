@@ -4,17 +4,17 @@ using System;
 
 public class GameEventSystem : MonoBehaviour
 {
-    public static GameEventSystem Current;
+    public static GameEventSystem current;
 
     void Awake()
     {
-        if (Current != null && Current != this)
+        if (current != null && current != this)
         {
             Destroy(gameObject);
             return;
         }
 
-        Current = this;
+        current = this;
         //DontDestroyOnLoad(gameObject); // Persist across scene changes
     }
 
@@ -31,7 +31,7 @@ public class GameEventSystem : MonoBehaviour
 
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        if (Current != this) Destroy(gameObject);
+        if (current != this) Destroy(gameObject);
     }
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
