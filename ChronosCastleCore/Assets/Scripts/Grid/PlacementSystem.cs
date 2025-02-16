@@ -35,6 +35,8 @@ public class PlacementSystem : MonoBehaviour
         stopPlacement();
         floorData = new();
         BuildingData = new();
+
+        
     }
 
   
@@ -97,6 +99,4 @@ public class PlacementSystem : MonoBehaviour
             
       
     }
-
-
 }
