@@ -11,7 +11,7 @@ public class SFXEventManager : MonoBehaviour
 
     [SerializeField] private List<AudioClip> audioClips;
 
-    Dictionary<string, AudioClip> audioDictionary;
+    private Dictionary<string, AudioClip> audioDictionary;
     
     void Awake()
     {
@@ -20,6 +20,7 @@ public class SFXEventManager : MonoBehaviour
 
     void Start()
     {
+        audioDictionary = new Dictionary<string, AudioClip>();
         DictSetup();
     }
 
@@ -100,7 +101,7 @@ public class SFXEventManager : MonoBehaviour
     void TryPlaySound(string key, Transform position, float volume) 
     {
         AudioClip clip;
-        if (audioDictionary.TryGetValue("StopSoundPlay", out clip))
+        if (audioDictionary.TryGetValue(key, out clip))
         {
             SFXManager.current.PlaySoundFXClip(clip, position, volume);
         }
