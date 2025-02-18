@@ -1,6 +1,9 @@
 using System;
 using UnityEngine;
 
+public enum TileType { Grass, Road, Lava }; //lava is just for testing purposes
+public enum TileAffiliation { Unclaimed, Player, Enemy };
+
 [Serializable]
 public class Tile 
 {
@@ -13,12 +16,16 @@ public class Tile
     private Vector2 Pos;
     private Vector3 WorldPos;
 
+    private TileType tileType;
+    private TileAffiliation tileAffiliation;
 
     public Tile(GameObject tile, Vector2 pos, Vector3 worldPos)
     {
         current = tile;
         Pos = pos;
         WorldPos = worldPos;
+        tileType = TileType.Grass;
+        tileAffiliation = TileAffiliation.Unclaimed;
     }
 
 
@@ -62,5 +69,15 @@ public class Tile
     {
         this.Structure = null;
         this.StructureIndex = -1;
+    }
+
+    public TileType GetTileType() 
+    {
+        return tileType;
+    }
+
+    public TileAffiliation GetTileAffiliation() 
+    {
+        return tileAffiliation;
     }
 }
