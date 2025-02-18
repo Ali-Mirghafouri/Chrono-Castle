@@ -74,7 +74,7 @@ public class World : MonoBehaviour
             //Debug.Log(pos);
             //Debug.Log(tiles.ContainsKey(pos));
 
-            if (tiles[new Vector2(pos.x, pos.z)].IsBlocked())
+            if (!tiles.ContainsKey(new Vector2(pos.x, pos.z)) || tiles[new Vector2(pos.x, pos.z)].IsBlocked())
                 return false;
         }
         return true;

@@ -1,11 +1,10 @@
 using System;
-using System.Collections.Generic;
 using UnityEngine;
 
 
 public class PlacementSystem : MonoBehaviour
 {
-    
+
     [SerializeField]
     private InputManager inputManager;
     [SerializeField]
@@ -13,7 +12,7 @@ public class PlacementSystem : MonoBehaviour
 
     [SerializeField]
     private ObjectsDatabase database;
-  
+
 
     public GameObject[] gridVisualization;
 
@@ -25,12 +24,16 @@ public class PlacementSystem : MonoBehaviour
 
     private Vector3Int lastDetectedPos = Vector3Int.zero;
 
+    public GameObject buildPanelIcon;
+    public GameObject buildPanel;
+
     IBuildingState buildingState;
 
     private void Start()
     {
         gridVisualization = GameObject.FindGameObjectsWithTag("Grid");
         VisToggle(false);
+        buildPanelController(false);
     }
 
 
@@ -38,7 +41,6 @@ public class PlacementSystem : MonoBehaviour
     {
         stopPlacement();
         VisToggle(true);
-
         buildingState = new PlacementState(ID, grid, preview, database, objectPlacer);
         inputManager.OnClicked += PlaceStructure;
         inputManager.OnExit += stopPlacement;
@@ -49,7 +51,6 @@ public class PlacementSystem : MonoBehaviour
     {
         stopPlacement();
         VisToggle(true);
-
         buildingState = new RemovingState(grid, preview, objectPlacer);
         inputManager.OnClicked += PlaceStructure;
         inputManager.OnExit += stopPlacement;
@@ -68,9 +69,7 @@ public class PlacementSystem : MonoBehaviour
 
     }
 
-   
-
-    private void stopPlacement()
+    public void stopPlacement()
     {
         VisToggle(false);
         inputManager.OnClicked -= PlaceStructure;
@@ -79,7 +78,22 @@ public class PlacementSystem : MonoBehaviour
         if (buildingState == null)
             return;
         buildingState.EndState();
-        buildingState = null;   
+        buildingState = null;
+    }
+
+    public void buildPanelController(bool IsOpen)
+    {
+        buildPanel.SetActive(IsOpen);
+        if (!IsOpen)
+        {
+            stopPlacement();
+            buildPanelIcon.SetActive(true);
+        } else
+        {
+            buildPanelIcon.SetActive(false);
+            VisToggle(true);
+
+        }
     }
 
     public void VisToggle(Boolean active)
@@ -92,17 +106,17 @@ public class PlacementSystem : MonoBehaviour
 
     private void Update()
     {
-        if (buildingState == null)  
-            return; 
+        if (buildingState == null)
+            return;
         Vector3 mousePosition = inputManager.GetSelectedMapPosition();
         Vector3Int gridPosition = grid.WorldToCell(mousePosition);
         if (lastDetectedPos != gridPosition)
         {
-            buildingState.UpdateState(grid.GetCellCenterWorld( gridPosition));
+            buildingState.UpdateState(grid.GetCellCenterWorld(gridPosition));
             lastDetectedPos = gridPosition;
         }
-            
-      
+
+
     }
 
 
